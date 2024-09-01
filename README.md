@@ -45,20 +45,19 @@ docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 init
 
 
 ```
-## 4. Now go to Verifier Page
-##![image](https://github.com/user-attachments/assets/76cb2700-d664-4280-8714-69dce9ba515f)
+## 4. Now go to Verifier Page https://verifier.nillion.com/secrets
 ```
-
-Wallet connect to web: https://verifier.nillion.com/secrets
-
-
 1️⃣Secret 1: Image of handpalm
 2️⃣Secret 2: Nillion wallet address
-### ![image](https://github.com/user-attachments/assets/6fd1ff01-220c-4596-af6f-0b29743000ac)
-
-3️⃣ verifier: Account ID & PUB_KEY (##2..... , ## 3.....)
-![image](https://github.com/user-attachments/assets/83be4d01-fcbb-4c38-a489-aafd2f9b6df9)
 ```
+##![image](https://github.com/user-attachments/assets/76cb2700-d664-4280-8714-69dce9ba515f)
+
+```
+3️⃣ verifier: Account ID & PUB_KEY (##2..... , ## 3.....)
+```
+### ![image](https://github.com/user-attachments/assets/6fd1ff01-220c-4596-af6f-0b29743000ac)
+### ![image](https://github.com/user-attachments/assets/83be4d01-fcbb-4c38-a489-aafd2f9b6df9)
+
 ## 5. Runing Node
 ```
 docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" --block-start 5243311
